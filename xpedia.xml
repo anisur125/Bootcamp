@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name = "AdhocExpedia">
+
+<test name="RegressionHD_03">
+
+<parameter name="url" value="https://www.expedia.com/"></parameter>
+<parameter name="browser" value="chrome"></parameter>
+
+<classes>
+<class name="ExpediaDotCom.ExpediaTest"></class>
+</classes>
+
+</test>
+<test name="RegressionHD_04">
+
+<parameter name="url" value="https://www.expedia.com/"></parameter>
+<parameter name="browser" value="firefox"></parameter>
+
+<classes>
+<class name="ExpediaDotCom.ExpediaTest"></class>
+
+</classes>
+
+</test>
+</suite>
